@@ -1,0 +1,15 @@
+{
+  "name": "wibbly-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "babel "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
