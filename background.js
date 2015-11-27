@@ -3,7 +3,7 @@ body {
   animation: squiggly-anim 0.34s linear infinite;
 }
 * {
-  overflow: hidden;
+  overflow-x: hidden;
 }`;
 
 function addSquigglies() {
