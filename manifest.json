@@ -3,10 +3,13 @@
   "description": "Make the world wibbly",
   "version": "0.1",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "file://*/*"
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["built.js"],
     "persistent": false
   },
   "browser_action": {

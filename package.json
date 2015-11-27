@@ -4,12 +4,13 @@
   "description": "",
   "main": "background.js",
   "scripts": {
-    "build": "babel "
+    "build": "babel background.js --out-file built.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.1.18",
+    "babel-cli": "^6.2.0",
     "babel-preset-es2015": "^6.1.18"
   }
 }
