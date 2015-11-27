@@ -5,8 +5,7 @@
   "permissions": [
     "activeTab",
     "http://*/*",
-    "https://*/*",
-    "file://*/*"
+    "https://*/*"
   ],
   "background": {
     "scripts": ["built.js"],
