@@ -4,7 +4,7 @@
   "description": "",
   "main": "background.js",
   "scripts": {
-    "build": "rm -rf built && babel background.js --out-file built.js && mkdir built  && cp built.js built/ && cp manifest.json built/"
+    "build": "babel background.js --out-file built.js && ./build.sh"
   },
   "author": "",
   "license": "ISC",
